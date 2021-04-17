@@ -1,0 +1,16 @@
+.style-button1 {
+  padding: 5px;
+  border: 1px solid black;
+  width: 10rem;
+  color: white;
+  background: #493ca9;
+  font-family: system-ui;
+  font-size: inherit;
+  margin-top: 2rem;
+}
+.style-heading {
+  font-family: monospace;
+  border: 1px solid;
+  font-size: x-large;
+  display: inline-table;
+}

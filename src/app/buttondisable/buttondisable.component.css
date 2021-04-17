@@ -1,0 +1,9 @@
+.style-button {
+  padding: 5px;
+  border: 1px solid black;
+  width: 10rem;
+  font-family: system-ui;
+  font-size: inherit;
+  margin-left: 20px;
+  border-radius: 0px;
+}

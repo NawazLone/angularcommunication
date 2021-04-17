@@ -1,0 +1,20 @@
+<div style='text-align:center'>
+  <h2 class='style-heading'>Using Event Emitter to communicate two independent components </h2>
+  <div>
+
+    <button (click)='disableFunctions(true)' class='style-button1' redmat-button color="primary">Click Here To
+      Disable</button>
+
+
+    <button style='margin-left:30px' (click)='disableFunctions(false)' class='style-button1' redmat-button
+      color="primary">Click Here To
+      Enable</button>
+  </div>
+  <br>
+  <hr>
+
+  <div class='maindiv'>
+    <h2> Another Component </h2>
+    <app-buttondisable></app-buttondisable>
+  </div>
+</div>
